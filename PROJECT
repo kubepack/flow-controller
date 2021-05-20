@@ -1,0 +1,13 @@
+domain: x-helm.dev
+layout:
+- go.kubebuilder.io/v3
+multigroup: true
+projectName: flow-controller
+repo: kubepack.dev/flow-controller
+resources:
+- controller: true
+  domain: x-helm.dev
+  group: module
+  kind: Flow
+  version: v1alpha1
+version: "3"
